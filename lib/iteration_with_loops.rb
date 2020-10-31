@@ -17,5 +17,5 @@ def join_nested_strings(src)
     final_output << output
     count +=1
   end
-  output
+  final_output
 end
