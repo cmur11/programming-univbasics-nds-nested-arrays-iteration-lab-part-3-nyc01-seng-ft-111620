@@ -4,6 +4,7 @@ def join_nested_strings(src)
   
   count = 0
   output = ""
+  final_output = ""
     while count < src.length do
       inner_count = 0
        
@@ -13,6 +14,7 @@ def join_nested_strings(src)
       end
       inner_count +=1
     end
+    final_output << output
     count +=1
   end
   output
